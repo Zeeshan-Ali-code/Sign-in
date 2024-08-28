@@ -1,0 +1,152 @@
+.image{
+    width: 100%;
+    height: 90vh;
+ }
+ /* login page start */
+ #loginBody{
+     /* background-color: #f4f4f4;  */
+     background-color: orange;
+     display: flex; 
+     justify-content: center;
+     font-family: sans-serif;
+ }
+ .loginHeading{
+     font-size: 40px;
+     color: orange ;
+ }
+ .loginForm{
+     background-color: white;
+     border: 1px solid orange;
+     width: 420px;
+     height: 70vh;
+     text-align: center;
+     border-radius: 20px;
+     padding: 20px;
+     margin-top: 4%;
+ }
+ .inpDiv{
+     margin-top:20%;
+ }
+ .inpDiv input{
+    padding: 12px;
+    margin-bottom: 3%;
+    width: 80%;
+    font-size: larger;
+    border: 1px solid #AAB8C2;
+    border-radius: 5px;
+ }
+ .inpDiv input:focus{
+     outline: none;
+     border: 1px solid orange !important;
+ }
+ .loginbtn{
+     padding: 12px;
+     border: none;
+     width: 80%;
+     font-size: large;
+     font-weight: bold;
+     border-radius: 20px;
+     margin-top: 2%;
+     margin-bottom: 2%;
+     background-color: orange;
+     color: white;
+     cursor: pointer;
+     border: 1px solid white;
+     transition: all 0.5s;
+ }
+ .loginbtn:hover{
+     background-color: white;
+     color: orange;
+     border: 1px solid orange;
+     transition: all 0.5s;
+ }
+ .accountbtn{
+     padding: 12px;
+     border: none;
+     width: 80%;
+     font-size: large;
+     font-weight: bold;
+     border-radius: 20px;
+     margin-top: 2%;
+     background-color: white;
+     color: orange;
+     border: 1px solid orange;
+     cursor: pointer;
+     transition: all 0.5s;
+ }
+ .accountbtn:hover{
+     background-color: orange;
+     color: white;
+     border: 1px solid white;
+     transition: all 0.5s;
+ }
+ /* login page end */
+ 
+ /* account page start */
+ #accountbody{
+     /* background-color: #f4f4f4;  */
+     background-color: orange; 
+     display: flex; 
+     justify-content: center;
+     font-family: sans-serif;
+ }
+ .accountHeading{
+     font-size: 40px;
+     color: orange ;
+ }
+ .accountForm{
+     background-color: white;
+     border: 1px solid orange;
+     width: 420px;
+     height: 70vh;
+     text-align: center;
+     border-radius: 20px;
+     padding: 20px;
+     margin-top: 4%;
+ }
+ .inpDiv{
+     margin-top:20%;
+ }
+ .inpDiv input{
+    padding: 12px;
+    margin-bottom: 3%;
+    width: 80%;
+    font-size: larger;
+    border: 1px solid #AAB8C2;
+    border-radius: 5px;
+ }
+ .inpDiv input:focus{
+     outline: none;
+     border: 1px solid rgb(124, 216, 253);
+ }
+ .donebtn{
+     padding: 12px;
+     border: none;
+     width: 80%;
+     font-size: large;
+     font-weight: bold;
+     border-radius: 20px;
+     margin-top: 4%;
+     background-color: orange ;
+     color: white;
+     cursor: pointer;
+     border: 1px solid white;
+     transition: all 0.5s;
+ }
+ .donebtn:hover{
+     background-color: white;
+     color: orange ;
+     border: 1px solid orange ;
+     transition: all 0.5s;
+ }
+ /* account page end */
+ 
+ @media(max-width:435px){
+     .loginForm{
+         margin-top: 10%;
+     }
+     .accountForm{
+         margin-top: 10%;
+     }
+ }
+ 
